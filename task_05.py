@@ -19,11 +19,8 @@ def flip_keys(to_flip):
         [(1, 23, 3), 'puy', 'ba']
     """
     counter = 0
-    for item in to_flip[::-1]:
-    #taking last item in to-flip
+    for item in to_flip:
         item = item[::-1]
-        #flipping last item
         to_flip[counter] = item
-        #changed from slicing in
         counter += 1
     return to_flip
