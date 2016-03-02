@@ -17,8 +17,8 @@ def flip_keys(to_flip):
         >>> flip_keys([(4, 5, 6), 'def', (6, 7, 8)])
         [(6, 5, 4), 'fed', (8, 7, 6)]
     """
-    num = 0
+    item = 0
     for lis in to_flip:
-        lis[::-1]
-        num += 1
+        to_flip[item] = lis[::-1]
+        item += 1
         return to_flip
