@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """A small docstring for a module"""
 
-ELEMENTS = (None, 'Hyrdrogen', 'Helium', 'Lithium', 'Beryllium', 'Boron',
-            'Carbon')
+ELEMENTS = (None, 'Hydrogen', 'Helium', 'Lithium', 'Beryllium',
+            'Boron','Carbon')
 OPERATIONS_ORDER = ['Parentheses', 'Exponents', 'Multiplication', 'Division',
                     'Addition', 'Subtraction']
