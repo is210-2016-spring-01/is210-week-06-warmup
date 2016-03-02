@@ -3,6 +3,6 @@
 """A small docstring for a module"""
 
 ELEMENTS = (None, 'Hydrogen', 'Helium', 'Lithium', 'Beryllium',
-            'Boron','Carbon')
+            'Boron', 'Carbon')
 OPERATIONS_ORDER = ['Parentheses', 'Exponents', 'Multiplication', 'Division',
                     'Addition', 'Subtraction']
