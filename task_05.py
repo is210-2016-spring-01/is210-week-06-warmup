@@ -9,9 +9,11 @@ def flip_keys(*to_flip):
     counter = 0
     for flip in to_flip:
         flip1 = flip[1][::-1]
-        #flip = list(flip[1]).reverse()
         flip2 = flip[0][::-1]
-        #flip = flip[0][::-1].extend(flip[1:3])
-        #flip = flip1.reverse()
         counter +=1
-        return flip2, flip1
+        flip = list()
+        flip.append(flip2)
+        flip.append(flip1)
+        #return flip, flip2, flip1, counter == len(to_flip)
+        return flip
+    
