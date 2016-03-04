@@ -3,8 +3,7 @@
 "This is about lists and tuples."
 
 ELEMENTS = (None, 'Hydrogen', 'Helium', 'Lithium', 'Beryllium',
-            'Boron', 'Carbon'
-            )
+            'Boron', 'Carbon')
+
 OPERATIONS_ORDER = ['Parentheses', 'Exponents', 'Multiplication',
-                    'Division', 'Addition', 'Subtraction'
-                    ]
+                    'Division', 'Addition', 'Subtraction']
