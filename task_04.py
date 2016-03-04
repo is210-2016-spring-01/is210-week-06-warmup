@@ -14,7 +14,7 @@ def process_data(data):
     Returns:
         net (int): net of all the given numbers
         avg (float): average of all numbers
-        
+
     Example:
         >>> process_data([1, 2, 3])
         (6, 2.0)
