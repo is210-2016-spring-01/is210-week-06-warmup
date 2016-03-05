@@ -15,9 +15,10 @@ def flip_keys(to_flip):
     Examples:
 
         >>> flip_keys([(1, 2, 3), 'abc'])
+        '[(3, 2, 1), 'cba']
     """
     counter = 0
     for value in to_flip:
-        print value[::-1]
-    counter += 1
+        to_flip[counter] = value[::-1]
+        counter += 1
     return to_flip
