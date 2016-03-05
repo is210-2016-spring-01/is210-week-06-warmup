@@ -20,6 +20,6 @@ def process_data(data):
         >>> process_data([2, 4, 6])
         '(12, 4.0)'
     """
-    for x in data:
-        x += x
+    for value in data:
+        value += value
         return (sum(data), sum(data)/float(len(data)))
