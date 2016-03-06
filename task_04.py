@@ -22,7 +22,7 @@ def process_data(data):
        (9, 3.0)
     """
     add = 0
-    for numbers in data:
-        add += numbers
-        average = float(add/ len(data))
-    return (add, average)
+    for num in data:
+        add += num
+        avg = add / float(len(data))
+    return (add, avg)
